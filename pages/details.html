@@ -1,0 +1,10 @@
+<div class="well center-block">
+    <img class="center-block" ng-src="images/{{kitten.id}}.jpg" style="width: 100%"/>
+    <p class="text-center">
+        <span>Name: {{kitten.name}}</span>
+    </p>
+</div>
+  <ul class="pager">
+    <li class="previous"><a href="#/kittenz/{{kitten.id-1}}">Previous</a></li>
+    <li class="next"><a href="#/kittenz/{{kitten.id+1}}">Next</a></li>
+  </ul>
